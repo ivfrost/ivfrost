@@ -12,7 +12,7 @@ I run Linux daily, self-host services on Proxmox, and use Coolify for deployment
 
 ## Let's Connect
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/vlpablo/)[![Email](https://img.shields.io/badge/Email-6D4AFF?logo=protonmail&logoColor=fff)](mailto:contact@ivfro.st)[![Website](https://img.shields.io/badge/Portfolio-20123A?logo=firefoxbrowser&logoColor=white)](https://ivfro.st)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/vlpablo/) [![Email](https://img.shields.io/badge/Email-6D4AFF?logo=protonmail&logoColor=fff)](mailto:contact@ivfro.st) [![Website](https://img.shields.io/badge/Portfolio-20123A?logo=firefoxbrowser&logoColor=white)](https://ivfro.st)
 
 ## Featured Work
 
