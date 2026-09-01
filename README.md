@@ -1,6 +1,6 @@
 # Hi, I'm Pablo
 
-<sub><img src="https://api.iconify.design/material-symbols:code.svg?color=%23569cd6" height="16" /></sub> Full Stack Developer &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/material-symbols:location-on.svg?color=%23569cd6" height="16" /></sub> Málaga, Spain &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/material-symbols:explore.svg?color=%23569cd6" height="16" /></sub> Open to new opportunities
+<sub><img src="https://api.iconify.design/lucide:terminal.svg?color=%23569cd6" height="16" /></sub> Full Stack Developer &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/lucide:map-pin.svg?color=%23569cd6" height="16" /></sub> Málaga, Spain &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/lucide:compass.svg?color=%23569cd6" height="16" /></sub> Open to new opportunities
 
 ## About
 
@@ -8,29 +8,31 @@ Self-taught Full Stack developer, backend-leaning. I care about understanding ho
 
 I run Linux daily, self-host services on Proxmox, and use Coolify for deployment testing. Currently preparing for the AWS Certified Developer – Associate (DVA-C02) to strengthen my cloud and scalability skills.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) [![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=fff)](#) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![AWS](https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg?logo=aws&logoColor=white) [![Coolify](https://img.shields.io/badge/Coolify-6B16ED?logo=coolify&logoColor=white)](#)
+![Java](https://img.shields.io/badge/Java-1E1E1E?style=flat&logo=openjdk&logoColor=ED8B00) ![TypeScript](https://img.shields.io/badge/TypeScript-1E1E1E?style=flat&logo=typescript&logoColor=3178C6) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-1E1E1E?style=flat&logo=springboot&logoColor=6DB33F) ![React](https://img.shields.io/badge/React-1E1E1E?style=flat&logo=react&logoColor=61DAFB) [![Expo](https://img.shields.io/badge/Expo-1E1E1E?logo=expo&logoColor=fff)](#) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-1E1E1E?style=flat&logo=tailwindcss&logoColor=06B6D4) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E1E1E?style=flat&logo=postgresql&logoColor=4169E1) ![Redis](https://img.shields.io/badge/Redis-1E1E1E?style=flat&logo=redis&logoColor=DC382D) ![Docker](https://img.shields.io/badge/Docker-1E1E1E?style=flat&logo=docker&logoColor=2496ED) ![AWS](https://custom-icon-badges.demolab.com/badge/AWS-1E1E1E.svg?logo=aws&logoColor=FF9900) [![Coolify](https://img.shields.io/badge/Coolify-1E1E1E?logo=coolify&logoColor=6B16ED)](#)
 
 ## Let's Connect
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/vlpablo/) [![Email](https://img.shields.io/badge/Email-6D4AFF?logo=protonmail&logoColor=fff)](mailto:contact@ivfro.st) [![Website](https://img.shields.io/badge/Portfolio-20123A?logo=firefoxbrowser&logoColor=white)](https://ivfro.st)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-1E1E1E?logo=linkedin-white)](https://www.linkedin.com/in/vlpablo/) [![Email](https://img.shields.io/badge/Email-1E1E1E?logo=protonmail&logoColor=6D4AFF)](mailto:contact@ivfro.st) [![Website](https://img.shields.io/badge/Portfolio-1E1E1E?logo=firefoxbrowser&logoColor=FF7139)](https://ivfro.st)
 
 ## Featured Work
 
 <details>
-<summary><strong>Hydrolink</strong>: Full-stack IoT irrigation platform, built solo from Arduino firmware to React Native app</summary>
+<summary><strong>Hydrolink</strong>: Full-stack IoT irrigation platform, built solo from ESP32 firmware to React Native app</summary>
 
 <br>
 
-Born from a real need: remotely manage irrigation systems on my countryside property.
+Born from a real need: managing irrigation systems in the countryside without physically checking on them.
 
-**Tech:** Java/Spring Boot · React Native · PostgreSQL · Redis · MQTT · Docker · Coolify · ESP32/Arduino
+**Tech:** Java/Spring Boot · React Native (Expo) · TanStack Query · PostgreSQL · Redis · MQTT (NanoMQ) · Docker · Coolify · ESP32/PlatformIO
 
 **Features:**
-- Secure auth and device provisioning (account register & login, device secret exchange via API + serial)
-- Dockerized backend with dev/prod builds, Postgres/Redis/MQTT with health checks, hosted on Coolify
-- Profile management: settings, recovery codes, password reset
-- Area management: QR linking, live status, edit area details, station roles, reorder stations
-- Manual station control: role-based safety (single solenoid at a time), duration selection, ESP32 live countdown acknowledgement
+- Area provisioning and auth via per-area secret exchanged over an Authorization header, with two-phase secret rotation over MQTT and RSA-signed broker auth and ACLs
+- User profiles: recovery codes, email and password reset
+- Area details: image, name, location, description
+- Stations: configurable, renamable, assignable roles (solenoid, sensor, etc.), manual control with countdown feedback
+- Full per-area, per-day scheduling system: time windows, absolute or relative activation (relative to another station), overlap detection to prevent conflicts
+- Dockerized backend with separate dev/prod builds, orchestrated via Compose with Postgres, Redis, and MQTT broker, each with health checks
+- Deployed on Coolify with secure environment variable injection
 
 [API Repo](https://github.com/ivfrost/hydrolink-api) · [App Repo](https://github.com/ivfrost/hydrolink-app) (firmware closed source)
 
