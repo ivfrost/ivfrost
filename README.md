@@ -1,6 +1,6 @@
 # Hi, I'm Pablo
 
-<sub><img src="https://api.iconify.design/material-symbols:code.svg?color=%23569cd6" height="16" /></sub> Full Stack Developer  ·  <sub><img src="https://api.iconify.design/material-symbols:location-on.svg?color=%23569cd6" height="16" /></sub> Málaga, Spain  ·  <sub><img src="https://api.iconify.design/material-symbols:explore.svg?color=%23569cd6" height="16" /></sub> Open to new opportunities
+<sub><img src="https://api.iconify.design/material-symbols:code.svg?color=%23569cd6" height="16" /></sub> Full Stack Developer &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/material-symbols:location-on.svg?color=%23569cd6" height="16" /></sub> Málaga, Spain &nbsp;·&nbsp; <sub><img src="https://api.iconify.design/material-symbols:explore.svg?color=%23569cd6" height="16" /></sub> Open to new opportunities
 
 ## About
 
@@ -12,18 +12,20 @@ I run Linux daily, self-host services on Proxmox, and use Coolify for deployment
 
 ## Let's Connect
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/vlpablo/) [![Email](https://img.shields.io/badge/Email-6D4AFF?logo=protonmail&logoColor=fff)](mailto:contact@ivfro.st) [![Website](https://img.shields.io/badge/Portfolio-20123A?logo=firefoxbrowser&logoColor=white)](https://ivfro.st)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/vlpablo/)[![Email](https://img.shields.io/badge/Email-6D4AFF?logo=protonmail&logoColor=fff)](mailto:contact@ivfro.st)[![Website](https://img.shields.io/badge/Portfolio-20123A?logo=firefoxbrowser&logoColor=white)](https://ivfro.st)
 
 ## Featured Work
 
-<details> <summary><strong>Hydrolink</strong> — Full-stack IoT irrigation platform, built solo from Arduino firmware to React Native app</summary> <br>
+<details>
+<summary><strong>Hydrolink</strong>: Full-stack IoT irrigation platform, built solo from Arduino firmware to React Native app</summary>
+
+<br>
 
 Born from a real need: remotely manage irrigation systems on my countryside property.
 
 **Tech:** Java/Spring Boot · React Native · PostgreSQL · Redis · MQTT · Docker · Coolify · ESP32/Arduino
 
 **Features:**
-
 - Secure auth and device provisioning (account register & login, device secret exchange via API + serial)
 - Dockerized backend with dev/prod builds, Postgres/Redis/MQTT with health checks, hosted on Coolify
 - Profile management: settings, recovery codes, password reset
