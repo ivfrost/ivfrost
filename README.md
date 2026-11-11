@@ -4,9 +4,9 @@
 
 ## About
 
-I'm a self-taught, backend-leaning full stack developer. I like understanding how systems work end to end and building software that's maintainable, debuggable, and useful.
+Self-taught full stack developer, backend-leaning. I care about understanding how things work, not just making them run, and about shipping quality code that's easier to maintain and debug.
 
-I'm an AWS Certified Developer Associate (DVA-C02), and I continue to build my skills in cloud application development and deployment.
+AWS Certified Developer Associate (DVA-C02), strengthening my cloud deployment and scalability skills.
 
 ![Java](https://img.shields.io/badge/Java-1E1E1E?style=flat&logo=openjdk&logoColor=ED8B00) ![TypeScript](https://img.shields.io/badge/TypeScript-1E1E1E?style=flat&logo=typescript&logoColor=3178C6) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-1E1E1E?style=flat&logo=springboot&logoColor=6DB33F) ![React](https://img.shields.io/badge/React-1E1E1E?style=flat&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-1E1E1E?style=flat&logo=expo&logoColor=fff) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-1E1E1E?style=flat&logo=tailwindcss&logoColor=06B6D4) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E1E1E?style=flat&logo=postgresql&logoColor=4169E1) ![Redis](https://img.shields.io/badge/Redis-1E1E1E?style=flat&logo=redis&logoColor=DC382D) ![AWS](https://img.shields.io/badge/AWS-1E1E1E?style=flat&logo=amazonaws&logoColor=FF9900) ![Docker](https://img.shields.io/badge/Docker-1E1E1E?style=flat&logo=docker&logoColor=2496ED) ![Coolify](https://img.shields.io/badge/Coolify-1E1E1E?style=flat&logo=coolify&logoColor=6B16ED)
 
